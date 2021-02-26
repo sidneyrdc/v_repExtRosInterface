@@ -51,3 +51,6 @@ target_link_libraries(v_repExtRosInterface
     ${catkin_LIBRARIES}
     ${VREP_LIBRARIES}
 )
+
+set_target_properties(v_repExtRosInterface PROPERTIES COMPILE_FLAGS "-std=c++11")
+
